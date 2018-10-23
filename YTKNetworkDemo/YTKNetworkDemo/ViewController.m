@@ -64,7 +64,6 @@
 - (void)chainRequestFailed:(YTKChainRequest *)chainRequest failedBaseRequest:(YTKBaseRequest*)request {
     // some one of request is failed
 }
-
 - (void)loadCacheData {
     NSString *userId = @"1";
     GetUserInfoApi *api = [[GetUserInfoApi alloc] initWithUserId:userId];
